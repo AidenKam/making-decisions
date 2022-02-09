@@ -49,8 +49,8 @@ if (amysAge === brittanisAge){
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 65
-let rain = true
+let temperature = 75
+let rain = false
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -58,6 +58,21 @@ let rain = true
 */
 
 //CODE HERE
+
+if (temperature > 80 && rain === true){
+  console.log('Wear a t-shirt and bring a umbrella')
+} else if (temperature > 60 && temperature < 80 && rain === true){
+  console.log('wear a rain jacket')
+} else if (temperature < 60 && rain === true){
+  console.log('wear a jacket and bring an umbrella')
+} else if (temperature > 80 && rain === false){
+  console.log('Wear a t-shirt')
+} else if (temperature > 60 && temperature < 80 && rain === false){
+  console.log('wear a light jacket')
+} else if (temperature < 60 && rain === false){
+  console.log('wear a heavy jacket')
+}
+
 
 
 ////////// PROBLEM 5 //////////
@@ -121,11 +136,19 @@ score++
 */
 
 //CODE HERE
+let changeMyMind = false;
+
+if (changeMyMind){
+  changeMyMind = false
+}else changeMyMind = true
+
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
+changeMyMind = !changeMyMind
+console.log(changeMyMind)
 
 
 
