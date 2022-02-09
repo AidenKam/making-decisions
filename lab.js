@@ -59,13 +59,13 @@ let rain = false
 
 //CODE HERE
 
-if (temperature > 80 && rain === true){
+if (temperature >= 80 && rain === true){
   console.log('Wear a t-shirt and bring a umbrella')
 } else if (temperature > 60 && temperature < 80 && rain === true){
   console.log('wear a rain jacket')
 } else if (temperature < 60 && rain === true){
   console.log('wear a jacket and bring an umbrella')
-} else if (temperature > 80 && rain === false){
+} else if (temperature >= 80 && rain === false){
   console.log('Wear a t-shirt')
 } else if (temperature > 60 && temperature < 80 && rain === false){
   console.log('wear a light jacket')
@@ -136,7 +136,7 @@ score++
 */
 
 //CODE HERE
-let changeMyMind = false;
+let changeMyMind = true;
 
 if (changeMyMind){
   changeMyMind = false
@@ -160,3 +160,8 @@ let z = 5
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+while (z > 0){
+  for(let i = z; i > 0 ; i--)
+  console.log(i)
+  z--
+}
