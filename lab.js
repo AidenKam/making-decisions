@@ -49,7 +49,7 @@ if (amysAge === brittanisAge){
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
+let temperature = 65
 let rain = true
 
 /*
@@ -68,6 +68,9 @@ let rain = true
 
 //CODE HERE
 
+for (let i=1; i<= 10; i++){
+  console.log('Hello')
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -77,6 +80,9 @@ let rain = true
 
 //CODE HERE
 
+for (let i=1; i <= 10; i++){
+  console.log(i)
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -85,6 +91,10 @@ let rain = true
 */
 
 //CODE HERE
+
+for (let i=10; i>= 1; i--){
+  console.log(i)
+}
 
 let score = 0
 let passingScore = 7
