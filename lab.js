@@ -43,7 +43,9 @@ if (amysAge < brittanisAge){
 */
 
 //CODE HERE
-
+if (amysAge === brittanisAge){
+  console.log('they are the same age')
+} else {console.log('they are not the same age')}
 
 ////////// PROBLEM 4 //////////
 
